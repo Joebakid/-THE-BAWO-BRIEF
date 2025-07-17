@@ -13,7 +13,8 @@ export const headlines = [
     summary:
       "Developers suggest a new consensus tweak to improve staking decentralization.",
     insight:
-      "This could help reduce the dominance of large staking providers and improve ETH’s long-term resilience.",
-    source: "https://decrypt.co/article/ethereum-merge-v3-leaks",
+      "The news regarding an innovative fix for Ethereum’s issues, including scaling and security, have been circling around the blockchain community a lot the last few days. The new Ethereum 3.0 update, which introduced its first phase through The Beacon Chain in late 2020, has been getting a lot of attention recently, as its next steps seem to include revisiting the sharding concept, mitigating protocol and centralization risks, and reducing data flow. The update is planned to be completed by 2026 but the remaining planned steps bring a lot of gossip as to how they could be executed and in the case they actually work - what would that mean for the Ethereum blockchain and its users. ",
+    source:
+      "https://cryptoapis.io/blog/224-can-ethereum-30-finally-overcome-scalability-challenges#:~:text=As%20an%20example%2C%20a%20rumor,of%20eliminating%20gas%20fees%20and",
   },
 ];
