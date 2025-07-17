@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .container-wrapper {
+    @apply w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%]   font-sans max-w-3xl mx-auto;
+  }
+
+  .card {
+    @apply bg-blue-100 py-2 px-9 mb-4 inline-block mx-auto text-center;
+  }
+
+  .transition-custom {
+    @apply transition duration-300 ease-in-out transform  hover:bg-gray-100;
+  }
+}
+
+body {
+  background-color: rgb(216, 213, 213);
+}

@@ -1,12 +1,55 @@
-# React + Vite
+# 📰 THE BAWO BRIEF
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**THE BAWO BRIEF** is a responsive React application that delivers concise, daily cryptocurrency news. Built with React and Tailwind CSS, it features smooth navigation, original article linking, and light/dark mode support — ideal for crypto enthusiasts looking for quick, credible updates.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 📅 **Daily News**: Aggregated crypto headlines with short insights.
+- 🔗 **Source Linking**: Click through to original articles for deeper reading.
+- 🌓 **Light & Dark Mode**: Automatically switches or allows toggling.
+- 📱 **Responsive Design**: Looks great on desktop, tablet, or mobile.
+- 🔄 **Dynamic Routing**: Each article has its own unique URL.
+- 🎨 **Styled with Tailwind CSS**: Fast, utility-first styling.
+- 🔗 **Footer with Contact & Links**: Includes portfolio, email, LinkedIn, and Twitter.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- [React](https://reactjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router](https://reactrouter.com/)
+- [Vite](https://vitejs.dev/) (for fast development and bundling)
+
+---
+
+## 📂 Project Structure
+
+src/
+│
+├── components/ # Reusable components (e.g., Footer)
+├── pages/ # Main page views (AllNewsPages, ArticlePage)
+├── data/ # Static or dynamic news data
+├── App.jsx # App root with routing
+├── index.css # Global styles (including Tailwind)
+└── main.jsx # Entry point
+
+
+
+---
+
+## 📸 Screenshots
+
+_Coming soon..._
+
+---
+
+## 🔧 Setup Instructions
+
+1. **Clone the repository**
+
+```bash
+git clone https://github.com/your-username/the-bawo-brief.git
+cd the-bawo-brief
