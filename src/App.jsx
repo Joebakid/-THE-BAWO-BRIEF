@@ -2,7 +2,7 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import ArticlePage from "./pages/ArticlePage";
 import AllNewsPages from "./pages/AllNewsPages";
 import "./index.css";
-import "./app.css";
+import "./App.css";
 import Footer from "./components/footer";
 
 export default function App() {
