@@ -21,8 +21,9 @@ export default function App() {
           <Route path="/article/:id" element={<ArticlePage />} />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
+        <Subscribe />
       </div>
-      <Subscribe />
+
       <Footer />
     </div>
   );
