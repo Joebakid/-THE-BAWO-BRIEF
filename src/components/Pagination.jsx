@@ -1,10 +1,10 @@
 // src/components/Pagination.jsx
 export default function Pagination({ page, total, setPage }) {
-  const totalPages = Math.ceil(total / 5);
+  const totalPages = total; // total days = total pages
   if (totalPages <= 1) return null;
 
   return (
-    <div className="flex gap-2 justify-center mt-6">
+    <div className="flex justify-center gap-2 mt-6">
       {[...Array(totalPages)].map((_, i) => (
         <button
           key={i}
