@@ -32,5 +32,6 @@ This announcement comes amid mixed market sentiment for L2 tokens, but Linea’s
       "Linea airdrop confirmed for late July; 780K wallets eligible after Sybil filter.",
     source:
       "https://www.dlnews.com/articles/defi/linea-confirms-airdrop-amid-waning-interest-in-layer-2-tokens/",
-  },
+  }
+
 ];

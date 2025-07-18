@@ -47,4 +47,22 @@ Key points:
     source:
       "https://www.reuters.com/business/media-telecom/ether-linked-stocks-jump-crypto-coin-hits-6-month-high-2025-07-18/?utm_source=chatgpt.com",
   },
+    {
+  id: "teacher-crypto-mining",
+  title: "Teacher Caught Running Crypto Mining Operation at School",
+  insight: `A schoolteacher has been caught secretly operating a full-blown cryptocurrency mining setup inside a school facility — and using the school's electricity to power it. The operation reportedly ran for several months before being discovered by school authorities, who noticed unusual power consumption and noise.
+
+Key details:
+- The mining rigs were hidden in an unused maintenance room.
+- Electricity bills had spiked sharply, prompting an internal investigation.
+- The teacher is now facing disciplinary action and possible legal consequences.
+- Authorities are reviewing if any student or network data was compromised.
+- This raises broader concerns about misuse of institutional resources for crypto mining.
+
+The incident has sparked debate about energy use, digital ethics, and crypto regulation in public spaces. The mining operation had been running from April to December 2021, and cost the high school about $17,500 (£14,600) in electricity, according to court records seen by the Boston Globe.`,
+  summary:
+    "Teacher secretly mined crypto at school for months using free electricity; now under investigation.",
+  source:
+    "https://www.bbc.com/news/world-us-canada-64767178"
+}
 ];
