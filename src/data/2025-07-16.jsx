@@ -15,4 +15,22 @@ Key points:
     source:
       "https://bullish.com/news-insights/news/bullish-and-solana-foundation-collaborate-to-advance-on-chain-financial-infrastructure-with-solana-native-stablecoins-at-the-core/",
   },
+  {
+    id: "linea-airdrop",
+    title: "Linea Confirms Token Airdrop Ahead of July TGE",
+    insight: `Linea has officially confirmed its upcoming token airdrop and Token Generation Event (TGE), set for late July 2025. The project will reward early users who participated in ecosystem campaigns and met eligibility criteria.
+
+Key points:
+- Users must have earned LXP or LXP‑L points and completed Proof‑of‑Humanity (PoH).
+- Roughly 780,000 wallets qualified, after removing nearly 40% as Sybil addresses.
+- Snapshot and claim portal expected just before TGE, with tokens likely distributed by early August.
+- XRPL EVM Sidechain traction shows real user growth, reinforcing Linea’s Layer 2 utility.
+- The airdrop aims to reward real contributors and strengthen governance participation.
+
+This announcement comes amid mixed market sentiment for L2 tokens, but Linea’s focus on verified users and real activity sets it apart.`,
+    summary:
+      "Linea airdrop confirmed for late July; 780K wallets eligible after Sybil filter.",
+    source:
+      "https://www.dlnews.com/articles/defi/linea-confirms-airdrop-amid-waning-interest-in-layer-2-tokens/",
+  },
 ];

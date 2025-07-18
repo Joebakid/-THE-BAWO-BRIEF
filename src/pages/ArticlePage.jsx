@@ -1,7 +1,7 @@
 import { useParams, Link } from "react-router-dom";
 import AllNewsPage from "../data/AllNewsPage";
 import { useEffect } from "react";
-import HeadlineCard from "../components/HeadlineCard"; // adjust path as needed
+import HeadlineCard from "../components/HeadlineCard";
 
 export default function ArticlePage() {
   const { id } = useParams();
