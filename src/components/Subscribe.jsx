@@ -6,7 +6,7 @@ export default function Subscribe() {
         📬 Subscribe to The Bawo Brief
       </h2>
       <form
-        action="https://josephbawo.substack.com/subscribe?next=https%3A%2F%2Fsubstack.com%2F%40thebawobrief&utm_source=profile-page&utm_medium=web&utm_campaign=substack_profile&just_signed_up=true"
+        action="https://josephbawo.substack.com/subscribe?"
         method="post"
         target="_blank"
         className="flex flex-col gap-3"
