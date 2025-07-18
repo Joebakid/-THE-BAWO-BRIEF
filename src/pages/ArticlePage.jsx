@@ -72,17 +72,18 @@ export default function ArticlePage() {
       </div>
 
       {/* Section for last 2 days headlines */}
-      <div className="max-w-2xl mx-auto mt-10 space-y-4">
-        <h2 className="text-xl font-semibold text-gray-800">
-          Recent Headlines
+      <div className="max-w-2xl mx-auto mt-10">
+        <h2 className="pt-10 mb-4 text-xl font-semibold text-gray-800 uppercase">
+          Recent
         </h2>
-        {lastTwoDaysHeadlines.map((item) => (
-          <HeadlineCard
-            key={item.id}
-            id={item.id}
-            title={item.title}
-            summary={item.summary}
-          />
+        {lastTwoDaysHeadlines.slice(0, 2).map((item) => (
+          <div key={item.id} className="mb-6">
+            <HeadlineCard
+              id={item.id}
+              title={item.title}
+              summary={item.summary}
+            />
+          </div>
         ))}
       </div>
     </div>

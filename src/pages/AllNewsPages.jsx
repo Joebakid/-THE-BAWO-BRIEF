@@ -1,10 +1,14 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import NewsPage from "./DayPage"; // Each day’s full news layout
 import allNews from "../data/AllNewsPage";
 import Pagination from "../components/Pagination";
 
 export default function AllNewsPages() {
   const [page, setPage] = useState(0);
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [page]);
 
   // Only show one day's news per page
   const total = allNews.length;
