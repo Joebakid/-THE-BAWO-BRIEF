@@ -1,13 +1,23 @@
 import { useParams, Link } from "react-router-dom";
 import AllNewsPage from "../data/AllNewsPage";
 import { useEffect } from "react";
+import HeadlineCard from "../components/HeadlineCard"; // adjust path as needed
 
 export default function ArticlePage() {
   const { id } = useParams();
 
-  const article = AllNewsPage.flatMap((day) =>
+  const allArticles = AllNewsPage.flatMap((day) =>
     day.headlines.map((item) => ({ ...item, date: day.date }))
-  ).find((item) => item.id === id);
+  );
+
+  const article = allArticles.find((item) => item.id === id);
+
+  // Get last two days’ articles (excluding the current one)
+  const lastTwoDaysHeadlines = AllNewsPage.slice(-2).flatMap((day) =>
+    day.headlines
+      .filter((item) => item.id !== id)
+      .map((item) => ({ ...item, date: day.date }))
+  );
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -32,8 +42,7 @@ export default function ArticlePage() {
   }
 
   return (
-    <div className="min-h-screen px-4 py-8 font-sans ">
-      {/* max-w-2xl w-full mx-auto bg-white p-6 sm:p-8 rounded-xl shadow-md  bg-gray-100 */}
+    <div className="min-h-screen px-4 py-8 font-sans">
       <div className="w-full max-w-2xl p-6 mx-auto shadow-md sm:p-8 rounded-xl">
         <div className="inline-flex mb-4">
           <Link
@@ -60,6 +69,21 @@ export default function ArticlePage() {
         >
           View original article
         </a>
+      </div>
+
+      {/* Section for last 2 days headlines */}
+      <div className="max-w-2xl mx-auto mt-10 space-y-4">
+        <h2 className="text-xl font-semibold text-gray-800">
+          Recent Headlines
+        </h2>
+        {lastTwoDaysHeadlines.map((item) => (
+          <HeadlineCard
+            key={item.id}
+            id={item.id}
+            title={item.title}
+            summary={item.summary}
+          />
+        ))}
       </div>
     </div>
   );

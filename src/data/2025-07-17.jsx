@@ -17,4 +17,15 @@ export const headlines = [
     source:
       "https://cryptoapis.io/blog/224-can-ethereum-30-finally-overcome-scalability-challenges#:~:text=As%20an%20example%2C%20a%20rumor,of%20eliminating%20gas%20fees%20and",
   },
+  {
+    id: "xrp-$3.4",
+    title:
+      "XRP surges toward its all-time high of $3.40 as altcoins begin to show bullish signals.",
+    summary:
+      "XRP price accelerates toward new highs as Ripple eyes Dubai’s tokenized real estate market",
+    insight:
+      "📈 XRP Price Rally and Strategic Expansion. Ripple (XRP) is trading around $3.24, recovering strongly from a $2.80 support level tested earlier in the week. The rally peaked near $3.29, just shy of its all-time high, supported by bullish technical indicators pointing to a potential new price discovery phase. On the adoption front, Ripple announced a major partnership with Ctrl Alt to support Dubai Land Department’s first real estate tokenization project. The XRP Ledger (XRPL) will power the blockchain infrastructure for digitizing property title deeds. Ripple’s broader global strategy includes expanding XRPL custody and smart contract use cases across Europe, MENA, Asia-Pacific, and Latin America. Its newly launched XRPL EVM Sidechain is gaining traction, with over 1,300 smart contracts deployed, 17,000+ addresses created, and 160+ tokens launched.",
+    source:
+      "https://www.mitrade.com/au/insights/news/live-news/article-3-967451-20250717",
+  },
 ];
