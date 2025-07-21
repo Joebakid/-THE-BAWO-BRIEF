@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Intel+One+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
 @layer components {
   .container-wrapper {
     @apply w-[95%] sm:w-[90%] md:w-[85%] lg:w-[80%]   font-sans max-w-3xl mx-auto;
@@ -16,6 +18,12 @@
   }
 }
 
+*{
+ font-family: "Intel One Mono", monospace;
+  font-optical-sizing: auto;;
+}
+
 body {
   background-color: rgb(216, 213, 213);
+
 }
