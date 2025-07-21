@@ -13,11 +13,16 @@ export default function ArticlePage() {
   const article = allArticles.find((item) => item.id === id);
 
   // Get last two days’ articles (excluding the current one)
-  const lastTwoDaysHeadlines = AllNewsPage.slice(-2).flatMap((day) =>
+ // Ensure articles are sorted by date descending
+const lastTwoDaysHeadlines = [...AllNewsPage]
+  .sort((a, b) => new Date(b.date) - new Date(a.date))
+  .slice(0, 2)
+  .flatMap((day) =>
     day.headlines
       .filter((item) => item.id !== id)
       .map((item) => ({ ...item, date: day.date }))
   );
+
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });

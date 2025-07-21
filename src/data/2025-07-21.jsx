@@ -31,8 +31,15 @@ export const headlines = [
   insight:
     "Alon Cohen (@a1lon9), Co-Founder and CEO of Pump.fun, has officially announced that the highly anticipated $PUMP airdrop will begin distribution on July 24, 2025, at 15:00 UTC. The airdrop targets eligible active Solana wallets, rewarding early users and contributors to the platform’s explosive growth.\n\nPump.fun has become a standout name in the meme coin and DeFi space on Solana, and the $PUMP token airdrop is expected to spark fresh activity and speculation across the ecosystem. Community members are encouraged to double-check wallet eligibility and monitor updates from the official Pump.fun channels.",
   source: "https://x.com/DeFiDownsin/status/1947040544372195372"
-}
+},
 
+{
+  "id": "microstrategy-btc-july2025",
+  "title": "📈 MicroStrategy Buys 6,220 BTC Worth $739.8M — Now Holds 607,770 BTC with $28.16B Unrealized Profit",
+  "summary": "MicroStrategy has acquired another 6,220 BTC at an average price of $118,940, pushing its total holdings to 607,770 BTC. The firm’s unrealized profit now stands at $28.16 billion.",
+  "insight": "MicroStrategy (@Strategy) made headlines again with its latest Bitcoin acquisition. The firm purchased 6,220 BTC last week for a total of $739.8 million, averaging $118,940 per BTC. This brings the company’s total Bitcoin holdings to a staggering 607,770 BTC, valued at approximately $71.77 billion.\n\nWith an average purchase price of $71,756, MicroStrategy currently sits on an unrealized profit of over $28.16 billion. The company continues to double down on Bitcoin as a core treasury asset, reinforcing its long-term bullish stance on the cryptocurrency market.",
+  "source": "https://www.strategy.com/press/strategy-acquires-6220-btc-and-now-holds-607770-btc_07-21-2025"
+}
 
 
 ];
