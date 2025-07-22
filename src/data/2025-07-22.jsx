@@ -45,7 +45,7 @@
     summary: "Coinbase has officially launched its perpetual futures product for eligible US users, marking a significant milestone in regulated derivatives trading.",
     insight:
       "Coinbase Advanced users in the US can now access perpetual futures trading directly on the platform. The move is part of Coinbase’s broader strategy to expand its offerings amid rising demand for leveraged crypto products. The service has been greenlit by the CFTC under their FCM license, giving Coinbase an edge over competitors in the tightly regulated American market.\n\nThe product launch includes BTC, ETH, and SOL contracts with up to 5x leverage initially.",
-    source: "https://www.coindesk.com/policy/2025/07/22/coinbase-perpetual-futures-launch-usa/"
+    source: "https://x.com/WatcherGuru/status/1947337696961056845"
   },
   {
     id: "grok-rover-drama",
