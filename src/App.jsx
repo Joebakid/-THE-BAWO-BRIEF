@@ -39,7 +39,7 @@ export default function App() {
   };
 
   const TickerContent = () => (
-    <div className="flex gap-6 px-4">
+    <div className="flex gap-6 px-4 ">
       {cryptoData.length === 0 ? (
         <span className="text-gray-400">Loading crypto prices...</span>
       ) : (
@@ -65,9 +65,9 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col">
       {/* Crypto Prices Ticker */}
-      <div className="bg-gray-900 text-white h-10 overflow-hidden relative">
-        <div className="marquee-wrapper absolute top-0 left-0 w-full h-full">
-          <div className="marquee-content whitespace-nowrap flex gap-10 animate-marquee">
+      <div className="bg-gray-900 text-white h-10 overflow-hidden">
+        <div className="marquee-wrapper">
+          <div className="marquee-content">
             <TickerContent />
             <TickerContent />
           </div>
