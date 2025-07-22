@@ -18,18 +18,24 @@
 
 .animate-marquee {
   animation: marquee 30s linear infinite;
+  display: inline-flex;
+  white-space: nowrap;
 }
 
 .marquee-wrapper {
-  position: absolute;
+  position: relative; /* 🔁 FIXED: from absolute to relative */
+  width: 100%;
   overflow: hidden;
+  height: 100%;
 }
 
 .marquee-content {
   display: inline-flex;
   align-items: center;
+  gap: 2.5rem; /* similar to gap-10 */
   height: 100%;
 }
+
 
 
 
